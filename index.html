@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WORLD Dataset</title>
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <!-- <link rel="shortcut icon" type="image/x-icon" href="titlelogo.jpg" /> -->
+    </head>
+    
+    <body style="background-color:#242222;">
+        <script type="text/javascript">
+            function mainTable(){
+                var mTableName = document.getElementById("mtableopt").value;
+                document.getElementById("output").innerHTML=mTableName;
+            }
+            
+        </script>
+
+        <h1 id="output">WORLD</h1><br>
+        
+        <main>
+            <form action="javascript:mainTable()">
+                <select id="mtableopt" name="mtableopt">
+                    <option value="city">CITY</option>
+                    <option value="country">COUNTRY</option>
+                    <option value="lang">LANG</option>
+                </select>
+
+                <input class="ok" type="submit" value="Enter">
+            </form>
+        </main>
+
+    </body>
+
+</html>

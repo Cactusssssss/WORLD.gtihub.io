@@ -1,0 +1,51 @@
+body{
+    font-family: sans-serif;
+    margin: 0em;
+}
+
+h1{
+    padding: 0.7em 0em 0.7em 0em;
+    text-align: center;
+    background-color: black;
+    color: white; 
+}
+
+/* SIZE OF INITIAL MAIN TABLE SELECTION SECTION */
+main{
+    margin-left: 40%;
+    margin-right: 30%;
+    padding: 0% 0% 0% 4%;
+}
+
+/* drop down option to select table */
+#mtableopt{
+    min-width: 10%;
+    font-size: 1.2em;
+}
+
+/* FOR THE "ENTER" BUTTON */
+.ok{
+    color: white;
+    background-color: black;
+    border: none;
+    transition-duration: 0.2s;
+    padding: 0.3em 1em 0.3em 1em;
+    margin: 1em 1em 1em 1em;
+    font-size: 1.1em;
+    text-align: center;
+    display: inline-block;
+    border-radius: 0.5em;
+    min-width: 5%;
+}
+
+.ok:hover{
+    background-color: rgb(58, 56, 56);
+    border: none;
+    padding: 0.3em 1em 0.3em 1em;
+    margin: 1em 1em 1em 1em;
+    font-size: 1.1em;
+    text-align: center;
+    display: inline-block;
+    border-radius: 0.5em;
+    min-width: 5%;
+}

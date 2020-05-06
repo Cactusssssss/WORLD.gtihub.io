@@ -15,6 +15,10 @@
                 document.getElementById("output").innerHTML=mTableName;
             }
             
+            function queryIN(){
+                var quer = document.getElementById("queryline").value;
+                document.getElementById("output").innerHTML=quer;
+            }
         </script>
 
         <h1 id="output">WORLD</h1><br>
@@ -26,6 +30,21 @@
                     <option value="country">COUNTRY</option>
                     <option value="lang">LANG</option>
                 </select>
+
+                <input class="ok" type="submit" value="Enter">
+            </form>
+        </main>
+
+        <section>
+            <form action="javascript:queryIN()">
+                <indi style="color:lightgrey;background-color:black;padding: 0.4em 1em 0.4em 1em;border-radius: 0.5em;">QUERY:&nbsp &nbsp</indi> <input type="text" placeholder="e.g. SELECT * FROM city" id="queryline">
+                <input class="ok" type="submit" value="Enter">
+            </form>
+        </section>
+
+    </body>
+
+</html>
 
                 <input class="ok" type="submit" value="Enter">
             </form>

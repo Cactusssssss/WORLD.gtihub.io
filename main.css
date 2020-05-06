@@ -23,6 +23,19 @@ main{
     font-size: 1.2em;
 }
 
+/* QUERY BOX */
+section{
+    margin-left: 25%;
+    margin-right: 0%;
+    padding: 0% 0% 0% 0%;
+}
+
+#queryline{
+    min-width: 30%;
+    width: 50%;
+    font-size: 1.2em;
+}
+
 /* FOR THE "ENTER" BUTTON */
 .ok{
     color: white;
@@ -48,4 +61,5 @@ main{
     display: inline-block;
     border-radius: 0.5em;
     min-width: 5%;
+    cursor: pointer;
 }

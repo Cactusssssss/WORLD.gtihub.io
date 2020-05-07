@@ -1,0 +1,160 @@
+body{
+    font-family: sans-serif;
+    margin: 0em;
+}
+
+/* WORLD TITLE */
+h1{
+    padding: 0.7em 0em 0.7em 0em;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+h1 a{
+    padding: 0.7em 0em 0.7em 0em;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0em;
+}
+
+h1 a:hover{
+    padding: 0.7em 0em 0.7em 0em;
+    text-align: center;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    text-decoration: none;
+    margin-bottom: none;
+}
+
+h2{
+    padding: 0.7em 0em 0.7em 0em;
+    text-align: center;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    margin-top: 0.05em;
+    margin-bottom: 0em;
+}
+
+/* SIZE OF INITIAL MAIN TABLE SELECTION SECTION */
+main{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0% 0% 0% 0%;
+}
+
+/* drop down option to select table */
+#mtableopt{
+    min-width: 10%;
+    font-size: 1.2em;
+}
+
+/* QUERY BOX */
+section{
+    margin-left: 25%;
+    margin-right: 0%;
+    padding: 0% 0% 0% 0%;
+}
+
+#queryline{
+    min-width: 30%;
+    width: 50%;
+    font-size: 1.2em;
+}
+
+/* FOR THE "ENTER" BUTTON */
+.ok{
+    color: white;
+    background-color: rgb(17, 17, 17);
+    border: none;
+    transition-duration: 0.5s;
+    padding: 0.5em 0% 0.5em 0;
+    margin: 0.2em 0% 0.2em 0%;
+    font-size: 150%;
+    text-align: center;
+    display: inline-block;
+    border-radius: 0.5em;
+    width: 100%;
+    text-decoration: none;
+}
+
+.ok:hover{
+    background-color: rgb(58, 56, 56);
+    border: none;
+    padding: 0.5em 0% 0.5em 0;
+    margin: 0.2em 0% 0.2em 0%;
+    font-size: 150%;
+    text-align: center;
+    display: inline-block;
+    border-radius: 0.5em;
+    cursor: pointer;
+    width: 100%;
+    text-decoration: none;
+}
+
+/* TABLE WITH PHP DATA */
+table{
+    width: 100%;
+}
+
+table, th, td{
+    color:white;
+    text-align:center;
+    padding: 0.15em;
+    border: 0.1em solid grey;
+    border-collapse: collapse;
+    margin: 2em 0em 0em 0em;
+}
+
+th{
+    padding: 0.5em 0.15em 0.5em 0.15em;
+    background-color: grey;
+    border: 0.1em solid darkgrey;
+}
+
+/*  SELECTION OF ACTIONS TO EXECUTE ONTO THE TABLE*/
+button{
+    float: left;
+    width: 25%;
+    text-align: center;
+    color: white;
+    font-size: 1.05em;
+    background-color: rgb(15, 15, 15);
+    border-color: rgb(20, 20, 20);
+    padding: 0.5em 0em 0.5em 0em;
+}
+
+button:hover{
+    float: left;
+    width: 25%;
+    text-align: center;
+    color: white;
+    font-size: 1.05em;
+    background-color: rgb(30, 30, 30);
+    border-color: rgb(20, 20, 20);
+    padding: 0.5em 0em 0.5em 0em;
+    cursor: pointer;
+}
+
+/* FORM STYLES */
+form{
+    padding: 3.5em 0em 0em 0em;
+    color: white;
+    background-color: rgb(25, 25, 25);
+    text-align: center;
+    font-size: 150%;
+}
+
+.boxes{
+    width: 80%;
+    padding: 0em 0em 0em 0em;
+    margin: 0.2em 0em 2em 0em;
+    text-align: center;
+    font-size: 130%;
+}
+
+.canoc1{
+    display: none;
+}
